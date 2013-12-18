@@ -1,0 +1,670 @@
+/* 
+    Document   : website Style
+    Created on : 2011-10-12, 22:42:44;
+    Last Update: PM 3:01 29/03/2012;
+    Author     : Qoli
+    Description:
+        整个网站的样式
+*/
+
+/* 图片载入 */
+.images-loading {
+    background: url('/Application/Extend/images/csg-4f5faa2749cd0-images.png') no-repeat top left;   
+}
+
+.repeat_h-loading {
+    background: url("/Application/Extend/images/csg-4f5fab0462887-repeat_h.png") no-repeat top left;  
+}
+
+.repeat_v-loading {
+    background: url('/Application/Extend/images/csg-4f5fabb8c1613-repeat_v.png') no-repeat top left;
+}
+
+.Main {
+    background-image: url('/Application/Extend/images/bg.png');
+}
+
+root,.disb { 
+    display: block;
+}
+
+.disn {
+    display: none;
+}
+
+b,.b,strong {
+    font-weight: bolder;
+}
+
+.ts {
+    text-shadow: 0px 1px 1px #ccc;
+}
+
+.cursor {
+    cursor: hand;
+    cursor: pointer;
+}
+
+.Height100 {
+    height: 100%;
+}
+
+body, button, input, select, textarea {
+    font-family: "Open Sans","lucida grande","Segoe UI",arial,verdana,"lucida sans unicode",tahoma,sans-serif !important;
+    -webkit-font-smoothing: antialiased;
+    font-size: 13px;
+    color: #000;
+    min-width: 1000px;
+}
+
+a {
+    color: #3c8cbd;
+    text-decoration: none;
+}
+
+hr {
+    border: none;border-bottom: 1px solid #2d3031;border-top: 1px solid #0d0d0d;
+}
+
+h1,h2,h3,h4,h5 {
+    font-weight: bold;
+    margin: 5px 10px;
+}
+
+h1 {
+    font-size: 22px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+.hideFocus {
+    hide-focus: expression(this.hideFocus=true); /* for ie 5+ */
+    outline: none; /* for firefox 1.5 + */
+    -webkit-appearance: none;
+}
+
+.posa {
+    position: absolute;
+}
+
+.posr {
+    position: relative;
+}
+
+.cofff {
+    color: #fff;
+}
+
+.coccc {
+    color: #ccc;
+}
+
+.Bor {
+    border: 1px #ccc solid;
+}
+
+.Left {
+    float: left;
+}
+
+.Right {
+    float: right;
+}
+
+.Clear {
+    clear: both;
+}
+
+.Center {
+    text-align: center;
+}
+
+.bacrx {
+    background-repeat: repeat-x;
+}
+
+.bacry {
+    background-repeat: repeat-y;
+}
+
+.mar0auto {
+    margin: 0 auto;
+}
+
+
+.Midbox {
+    margin: 0px auto 0px;
+    width: 978px;
+}
+
+
+.Main {
+    background-repeat: repeat;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 50px;
+}
+
+/* 导航窗口 */
+
+.NavBox {
+    padding: 20px 0;
+    padding-right: 5px;
+    text-align: right;
+}
+
+.NavBox li {
+    display: inline;
+    margin-left: 20px;
+    color: #fff;
+}
+
+.NavBox li a {
+    color: #fff;
+}
+
+/* 简历名片 */
+
+.WhiteBox_Size {
+    height: 575px;
+    width: 958px;
+}
+
+.WhiteBox_Border {
+    height: 575px;
+    width: 10px;
+}
+
+.MainNameCard {
+    width: 480px;
+    margin: 0 auto 0px;
+    margin-top: 177px;
+}
+
+.images-MyNameBG {
+    margin-top: -20px;
+}
+.images-MyName {
+    margin-top: -140px;
+}
+
+.images-MyName_Line_02 {
+    margin-top: 85px;
+}
+
+.SidebarButton {
+    top: 267px;
+    right: 10px;
+    opacity: 0;
+    -moz-transition: -moz-transform 1s ease-out 0s;
+    -moz-transform: rotate(0deg);
+}
+
+.tar180 {
+    -moz-transform: rotate(180deg);
+}
+
+/* 简历和作品框 */
+
+.Work_Box {
+    margin-top: 55px;
+}
+
+.sprite-box_bg,.sprite-Contact_bg {
+    padding: 5px 20px;
+}
+
+.sprite-title_bg {
+    width: 972px;
+}
+
+.images-title_Work,.images-title_Resume,.images-title_Contactme {
+    left: 20px;
+    top: 16px;
+}
+
+.images-title_Work_icon,.images-title_Resume_icon {
+    margin-top: 13px;
+}
+
+.sprite-title_right_bg {
+    left: 923px;
+    width: 48px;
+    border-left: 1px #b0b0b0 solid;
+}
+
+.CategoryList {
+    padding: 10px 0;
+    border-bottom: 1px #EEEEEE solid;
+    margin-bottom: 10px;
+}
+
+.CategoryButton {
+    margin-right: 12px;
+}
+
+.button_g_m {
+    background-color: #DADADA;
+    height: 25px;
+    padding: 0 8px;
+    line-height: 25px;
+    font-size: 9px;
+    color: #fff;
+    text-shadow: 0px 1px 0px #CCC;
+    cursor: pointer;
+    font-family: arial;
+}
+
+.CategoryButton:hover .images-button_g_l {
+    background-position: -530px -586px;
+}
+.CategoryButton:hover .images-button_g_r {
+    background-position: -530px -661px;
+}
+
+.CategoryButton:hover .button_g_m {
+    background-color: #67A2BB;
+    text-shadow: 0px 1px 0px #8BA9BB;
+}
+
+.WorkList {
+    margin-top: 8px;
+    width: 210px;
+}
+.images-Work_line {
+    margin-bottom: 8px;
+}
+
+.WorkList li {
+    padding-left: 20px;
+    font-size: 12px;
+    line-height: 18px;
+    text-shadow: 0px 1px 0px #ccc;
+    color: #717171;
+}
+
+.WorkList li:hover,.WorkList .Activation {
+    background-color: #CDCDCD;
+    color: #fff;
+    text-shadow: 0px 1px 0px #ccc;
+}
+
+.WorkView {
+    min-height: 500px;
+    width: 980px;
+}
+
+.SingleWork {
+    margin-right: 26px;
+    margin-bottom: 35px;
+}
+
+.WorkText {
+    top: 147px;
+    left: 1px;
+    z-index: 9999;
+}
+
+.WorkText .title {
+    text-align: right;
+    margin-top: 19px;
+    margin-right: 10px;
+    color: #666;
+}
+.WorkText .date {
+    color: #bfbfbf;
+    text-align: right;
+    font-size: 9px;
+    margin-right: 10px;
+    margin-top: 0px;
+}
+
+
+.WorkPhoto {
+    border-radius: 5px;
+    border: 1px #ccc solid;
+}
+
+.ResumeSubBox {
+    margin-top: 20px;
+    padding-bottom: 15px;
+}
+
+.SubTitle {
+    line-height: 25px;
+    border-bottom: 1px #CDCDCD solid;
+    margin-bottom: 25px;
+}
+
+.SERVICE {
+    width: 469px;
+}
+
+.SERVICE .images-loading {
+    width: 202px;
+}
+
+.SERVICE .Desc {
+    width: 208px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+/* 页脚 */
+
+.sprite-Contact_bg {
+    width: 938px;
+}
+
+.Contact_Box_Title {
+    height: 52px;
+    background-color: #474747;
+    width: 973px;
+}
+
+.Contact_Box_Title_Line {
+    width: 973px;
+    border-bottom: 1px #474747 solid;
+    height: 1px;
+    margin-left: -18px;
+    margin-top: -5px;
+    margin-bottom: 25px;
+}
+
+.FooterLeftBox {
+    width: 650px;
+}
+
+.FooterRightBox {
+    margin-top: 50px;
+    margin-left: 15px;
+}
+
+.images-Contact_line {
+    margin-right: 45px;
+    margin-top: 13px;
+}
+.images-Contact_weibo {
+    margin-bottom: 26px;
+}
+
+.FooterDescBox {
+    color: #fff;
+    width: 200px;
+    height: 125px;
+}
+.FooterDescBox a {
+    color: #fff;
+}
+.FooterDescBox li {
+
+}
+
+.FootBox,.FootBox *{
+    color: #414141;
+    font-size: 9px;
+}
+
+/* 加载中样式 */
+
+#loading {
+    position:fixed !important;
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    z-index:999;
+    background:#FFF no-repeat center;
+    opacity:0.7;
+    filter:alpha(opacity=70);
+}
+#loading p,#loading #loading-one{
+    color:#000;
+    position:absolute;
+    top:50%;
+    left:50%;
+}
+
+
+/* 动画支持 */
+
+#MainNameCard {
+    margin-top: -300px;
+}
+
+#CloseSidebar_Views,#CloseSidebar_WorkViews {
+    -moz-transition: -moz-transform 0.3s ease-out 0s;
+    -moz-transform: rotate(0deg);
+    -webkit-transition: -webkit-transform 0.3s ease-out 0s;
+    -webkit-transform: rotate(0deg);
+    transition: transform 0.3s ease-out 0s;
+    transform: rotate(0deg);
+}
+
+#CloseSidebar_Views:hover,#CloseSidebar_WorkViews:hover {    
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+.trans {
+    -moz-transform: rotate(0deg);
+    -moz-transition: -moz-transform 1s ease-out 0s;
+    -webkit-transform: rotate(0deg);
+    -webkit-transition: -webkit-transform 1s ease-out 0s;
+    transform: rotate(0deg);
+    transition: transform 1s ease-out 0s;
+}
+
+/* Sidebar 侧边栏 */
+
+.Sidebar {
+    left: 99999px;
+    top: 0px;
+    width: 1050px;
+    background-color: #202020;
+    color: #fff;
+    display: none;
+}
+
+.SidebarLeftLine {
+    display: block;
+    height: 800px;
+}
+
+.SidebarRightText {
+
+}
+
+.SidebarTextBox {
+    margin-left: -5px;
+    width: 994px;
+}
+
+.SidebarTextBox .Title {
+    background-color: #D0D0D;
+}
+
+.TitleText {
+    margin-top: 5px;
+}
+
+.SidebarTextBox .TitleText h2,span {
+    margin-left: 25px;
+}
+
+.SidebarTextBox .TitleText h2{
+    color: #fff;
+    font-size: 32px;
+}
+
+.SidebarTextBox .TitleText span {
+    color: #ccc;
+    font-size: 12px;
+    margin-top: -10px;
+}
+
+.SidebarTextBox .Text {
+    margin: 10px 60px 40px 80px;
+}
+
+.SidebarTextBox .WorkView {
+    margin: -1px 60px 40px 80px;
+}
+
+.images-AboutIcon {
+    margin-left: 10px;
+    margin-top: 14px;
+}
+
+.images-About-Me {
+    margin: 17px 0 0 12px;
+}
+
+.images-About-code {
+    margin: 15px 0 0 7px;
+}
+
+.images-About-rem {
+    margin: 15px 0 0 17px;
+}
+
+.images-About-weibo {
+    margin: 15px 0 0 15px;
+}
+
+.AboutClose {
+    margin: 9px 0 5px 14px;
+
+}
+
+/* Works View */
+
+.loading_Works {
+    background:rgba(255,255,255,0.7) no-repeat center !important;
+}
+
+.loading_Works p {
+    top: 20px !important;
+}
+
+.View_PhotoList {
+    padding-top: 10px;
+    width: 1000px;
+}
+
+.View_PhotoList .SinglePhoto {
+
+}
+
+.SinglePhoto .resizeme,.resizeme {
+    background-color: #333333;
+    border: 1px solid #000000;
+    height: 160px;
+    width: 160px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.ViewOrgPhoto {
+    background: url('/Application/Extend/images/UI/NewWindows.png') no-repeat top left;
+    background-position: 100% 50%;
+    padding: 0 10px 0 5px;
+    margin-left: 10px;
+    font-size: 8px;
+    color: #fff;
+}
+
+.TitleInfo .clock{
+    background: url('/Application/Extend/images/UI/Clock.png') no-repeat top left;
+    background-position: 2px 45%;
+    padding-left: 15px;
+    font-size: 9px;
+}
+.TitleInfo .TitleMore {
+    margin-left: 50px;
+    background: url('/Application/Extend/images/UI/MoreInfo.png') no-repeat top left;
+    background-position: 2px 45%;
+    padding-left: 15px;
+    font-size: 9px;
+}
+.TitleInfo .Author {
+    margin-left: 50px;
+    background: url('/Application/Extend/images/UI/Author.png') no-repeat top left;
+    background-position: 2px 45%;
+    padding-left: 15px;
+    font-size: 9px;
+}
+
+.WorkViewProject {
+    background: url("/Application/Extend/images/UI/Project.png") no-repeat scroll left top transparent;
+    display: block;
+    height: 17px;
+    margin: 15px 0 0 15px;
+    width: 14px;
+}
+
+.MoreInfo{
+    color: #fff;
+    border: 1px #2d3031 solid;
+    background-color: #0c0c0c;
+    padding: 20px 20px 10px;
+    border-top: none;
+}
+
+.MoreInfo .MoreDIV {
+    width: 400px;
+}
+
+.fancyTitle {
+    font-size: 9px;
+}
+
+/* CSS 定位组合 */
+.images-About-Me{ background-position: 0 0; width: 22px; height: 14px; } 
+.images-About-code{ background-position: 0 -64px; width: 30px; height: 15px; } 
+.images-About-rem{ background-position: 0 -129px; width: 12px; height: 15px; } 
+.images-About-weibo{ background-position: 0 -194px; width: 14px; height: 17px; } 
+.images-AboutClose{ background-position: 0 -261px; width: 38px; height: 39px; } 
+.images-AboutIcon{ background-position: 0 -350px; width: 44px; height: 44px; } 
+.images-Contact_line{ background-position: 0 -444px; width: 1px; height: 104px; } 
+.images-Contact_mail{ background-position: 0 -598px; width: 170px; height: 52px; } 
+.images-Contact_weibo{ background-position: 0 -700px; width: 180px; height: 52px; } 
+.images-MyName{ background-position: 0 -802px; width: 132px; height: 43px; } 
+.images-MyNameBG{ background-position: 0 -895px; width: 480px; height: 231px; } 
+.images-MyName_Line_01{ background-position: 0 -1176px; width: 425px; height: 13px; } 
+.images-MyName_Line_02{ background-position: 0 -1239px; width: 425px; height: 2px; } 
+.images-NameCard_LB{ background-position: 0 -1291px; width: 10px; height: 575px; } 
+.images-NameCard_RB{ background-position: 0 -1916px; width: 10px; height: 575px; } 
+.images-NavLine{ background-position: -530px 0; width: 140px; height: 1px; } 
+.images-Resume_desktop{ background-position: -530px -51px; width: 192px; height: 118px; } 
+.images-Resume_mobile{ background-position: -530px -219px; width: 202px; height: 160px; } 
+.images-Work_line{ background-position: -530px -429px; width: 206px; height: 1px; } 
+.images-box_buttom{ background-position: -530px -480px; width: 978px; height: 4px; } 
+.images-box_top{ background-position: -530px -534px; width: 978px; height: 2px; } 
+.images-button_b_l{ background-position: -530px -586px; width: 3px; height: 25px; } 
+.images-button_b_r{ background-position: -530px -661px; width: 3px; height: 25px; } 
+.images-button_g_l{ background-position: -530px -736px; width: 3px; height: 25px; } 
+.images-button_g_r{ background-position: -530px -811px; width: 3px; height: 25px; } 
+.images-title_Contactme{ background-position: -530px -886px; width: 191px; height: 24px; } 
+.images-title_Resume{ background-position: -530px -960px; width: 136px; height: 24px; } 
+.images-title_Resume_icon{ background-position: -530px -1034px; width: 30px; height: 27px; } 
+.images-title_Work{ background-position: -530px -1111px; width: 112px; height: 25px; } 
+.images-title_Work_icon{ background-position: -530px -1186px; width: 28px; height: 29px; } 
+.images-workList-BG{ background-position: -530px -1265px; width: 292px; height: 205px; } 
+.images-workList-TextTop{ background-position: -530px -1520px; width: 290px; height: 57px; } 
+
+
+/* h */
+.sprite-AboutTitleBG-h{ background-position: 0 0; height: 70px; width: 1000px; } 
+.sprite-NameCard_MB{ background-position: 0 -71px; height: 575px; } 
+.sprite-title_bg{ background-position: 0 -647px; height: 54px; } 
+.sprite-title_right_bg{ background-position: 0 -702px; height: 53px; } 
+
+/* v */
+.sprite-AboutLine-v{ background-position: 0 0; width: 11px; } 
+.sprite-Contact_bg{ background-position: -12px 0; } 
+.sprite-box_bg{ background-position: -991px 0; } 
+
